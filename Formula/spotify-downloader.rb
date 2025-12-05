@@ -11,7 +11,7 @@ class SpotifyDownloader < Formula
   end
 
   def install
-    bin.install "spotdl-4.4.3-darwin" => "spotdl"
+    bin.install "spotdl-#{version}-darwin" => "spotdl"
   end
 
   def caveats
