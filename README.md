@@ -4,17 +4,17 @@ Minimal-effort Homebrew tap for installing [spotDL](https://github.com/spotDL/sp
 
 ## Installation
 
-Once this repository is pushed to GitHub (e.g., as `yourusername/homebrew-spotify-downloader`), users can install spotdl with:
+Install spotdl with:
 
 ```bash
-brew tap yourusername/spotify-downloader
+brew tap alexmachina/spotify-downloader
 brew install spotify-downloader
 ```
 
 Or in a single command:
 
 ```bash
-brew install yourusername/spotify-downloader/spotify-downloader
+brew install alexmachina/spotify-downloader/spotify-downloader
 ```
 
 ## Dependencies
@@ -46,12 +46,8 @@ For full usage documentation, visit the [official spotDL documentation](https://
 
 This tap installs the prebuilt macOS binary from the [official releases](https://github.com/spotDL/spotify-downloader/releases), providing the fastest and simplest installation method without requiring Python or building from source.
 
-## Repository Setup
+## Repository
 
-To publish this tap:
+This tap is published at [github.com/alexmachina/homebrew-spotify-downloader](https://github.com/alexmachina/homebrew-spotify-downloader).
 
-1. Create a GitHub repository named `homebrew-spotify-downloader`
-2. Push this code to the repository
-3. Users can then tap and install as shown above
-
-The repository name must start with `homebrew-` for Homebrew to recognize it as a tap.
+The repository name follows Homebrew conventions by starting with `homebrew-`, which allows Homebrew to recognize it as a tap.
